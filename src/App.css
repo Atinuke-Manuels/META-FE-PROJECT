@@ -1,32 +1,7 @@
 .App {
-  text-align: center;
+  padding: 2em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +10,174 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.navImg {
+  width: 3em;
+  height: 3em;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.anchor {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.headerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.headerP {
+  width: 48%;
+}
+
+.headerImage {
+  width: 48%;
+}
+
+.headerBtn {
+  background-color: black;
+  color: #ffffff;
+  padding: 1em 2em;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0em;
+}
+
+.mainImage {
+  width: 100%;
+  height: 12em;
+}
+
+.mainFoodSec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodSection {
+  width: 25%;
+}
+
+.pTags {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodName {
+  font-weight: bold;
+}
+
+.price {
+  color: red;
+}
+
+.testimonials {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratingIcon {
+  padding-bottom: 1em;
+}
+
+.ratingImg {
+  width: 70%;
+}
+
+.gold-star {
+  color: gold; /* or you can use a specific gold color like #FFD700 */
+}
+
+.testimonialSec {
+  width: 23%;
+}
+
+.secondImg {
+  position: absolute;
+  top: 92em;
+  right: 5em;
+}
+
+.aboutImage {
+  position: absolute;
+  top: 96em;
+  right: 13em;
+}
+
+.aboutHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2em;
+  width: 100%;
+}
+
+.aboutImgDiv {
+  width: 90%;
+}
+
+.footer {
+  display: flex;
+  padding-top: 3em;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footerLogo{
+  width: 7em;
+  height: 12em;
+}
+
+.footerHeading {
+  font-weight: bold;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  align-items: left;
+  font-size: 0.8rem;
 }
