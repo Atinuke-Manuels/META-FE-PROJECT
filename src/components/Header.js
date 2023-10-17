@@ -1,5 +1,6 @@
 import React from 'react'
 import headerImage from '../images/headerImg.jpg'
+import Footer from './Footer'
 
 export default function Header() {
   return (
@@ -16,6 +17,7 @@ Our menu is a culinary journey through time, with each dish crafted to perfectio
       </div>
       <img src= {headerImage} alt='headerImage' className='headerImage'/>
       </div>
+      <Footer/>
     </header>
   )
 }

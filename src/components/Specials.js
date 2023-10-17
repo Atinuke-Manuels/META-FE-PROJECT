@@ -2,12 +2,14 @@ import React from 'react'
 import food1 from '../images/food1.jpg'
 import food2 from '../images/food2.jpg'
 import food3 from '../images/food3.jpg'
+import Footer from './Footer'
+import Testimonials from './Testimonials'
 
 export default function Specials() {
   return (
     <main>
       <section className='mainHeader'>
-        <h3>Chicago</h3>
+        <h3>Specials</h3>
         <button className='headerBtn' id='onlineMenu'>Online menu</button>
       </section>
       <div className='mainFoodSec'>
@@ -50,6 +52,8 @@ export default function Specials() {
           </div>
         </section>
       </div>
+      <Testimonials/>
+      <Footer/>
     </main>
   )
 }
