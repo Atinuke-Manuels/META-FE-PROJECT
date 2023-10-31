@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutImage from '../images/aboutImg1.jpg'
 import secondImg from '../images/aboutImg2.jpg'
+import Footer from './Footer'
 
 function About() {
   return (
@@ -17,6 +18,7 @@ function About() {
       <img src= {secondImg} alt='headerImage' className='secondImg'/>
       </div>
       </div>
+      <Footer/>
     </div>
   )
 }

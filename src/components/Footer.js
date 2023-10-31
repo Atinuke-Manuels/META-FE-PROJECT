@@ -1,5 +1,6 @@
 import React from 'react'
 import headerImg from '../images/Little-lemon.jpg'
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -8,11 +9,11 @@ export default function Footer() {
         <section>
             <h5 className='footerHeading'>Doormat Navigation</h5>
             <ul className='footerList'>
-                <li><a href='#home'>Home</a></li>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#menu'>Menu</a></li>
-                <li><a href='#reservation'>Reservation</a></li>
-                <li><a href='#onlineMenu'>Order Online</a></li>
+                <li><Link to="/">Home</Link></li>
+        <li><Link to="/About">About</Link></li>
+        <li><Link to="/Specials">Menu</Link></li>
+        <li><Link to="/Header">Reservation</Link></li>
+        <li><Link to="/Specials">Order Online</Link></li>
                 <li><a href='#login'>Login</a></li>
             </ul>
         </section>

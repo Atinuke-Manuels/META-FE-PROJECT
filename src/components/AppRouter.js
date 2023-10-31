@@ -5,6 +5,7 @@ import Header from './Header';
 import Specials from './Specials';
 import Testimonials from './Testimonials';
 import About from './About';
+import BookingPage from './BookingPage';
 
 const AppRouter = () => {
   return (
@@ -15,6 +16,7 @@ const AppRouter = () => {
         <Route path="/Specials"  element={<Specials/>}/>
         <Route path="/Testimonials"  element={<Testimonials/>}/>
         <Route path="/About" element={<About/>}/>
+        <Route path="/BookingPage" element={<BookingPage/>}/>
       </Routes>
       </BrowserRouter>
   );

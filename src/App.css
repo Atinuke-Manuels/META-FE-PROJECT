@@ -124,13 +124,13 @@
 
 .secondImg {
   position: absolute;
-  top: 92em;
+  top: 6em;
   right: 5em;
 }
 
 .aboutImage {
   position: absolute;
-  top: 96em;
+  top: 10em;
   right: 13em;
 }
 
@@ -143,8 +143,12 @@
   width: 100%;
 }
 
+.headerP {
+  width: 48%;
+}
+
 .aboutImgDiv {
-  width: 90%;
+  width: 48%;
 }
 
 .footer {
@@ -184,4 +188,5 @@
   color: black;
   align-items: left;
   font-size: 0.5rem;
+  font-weight: bold;
 }
