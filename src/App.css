@@ -143,11 +143,35 @@
   width: 100%;
 }
 
-.headerP {
+.aboutImgDiv {
   width: 48%;
 }
 
-.aboutImgDiv {
+@media screen and (max-width: 768px){
+  .aboutHeaderDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10em;
+  }
+  .aboutImgDiv {
+  width: 28%;
+}
+.secondImg {
+  position: absolute;
+  top: 40em;
+  right: 6em;
+  width: 30%;
+}
+
+.aboutImage {
+  position: absolute;
+  top: 44em;
+  right: 14em;
+  width: 30%;
+}
+}
+
+.headerP {
   width: 48%;
 }
 

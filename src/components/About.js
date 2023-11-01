@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 function About() {
   return (
-    <div id='about'>
+    <div id='about' className='about'>
     <div className='aboutHeaderDiv' id='home'>
       <div className='headerP'>
       <h2>Little Lemon</h2>
