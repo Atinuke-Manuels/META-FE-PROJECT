@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import headerImg from '../images/Little-lemon.jpg'
+import headerImg from '../images/Little-lemon.png'
 import { Link } from 'react-router-dom';
 import Footer from './Footer'
 

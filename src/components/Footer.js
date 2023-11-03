@@ -1,5 +1,5 @@
 import React from 'react'
-import headerImg from '../images/Little-lemon.jpg'
+import headerImg from '../images/Little-lemon.png'
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
