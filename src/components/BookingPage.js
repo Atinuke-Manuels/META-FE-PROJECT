@@ -4,7 +4,7 @@ import Footer from './Footer';
 import URL from './ApiFile'; // Import the API URL
 
 export function initializeTimes() {
-    return ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
+    return ['00:00', '09:00','17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
   }
 
 
