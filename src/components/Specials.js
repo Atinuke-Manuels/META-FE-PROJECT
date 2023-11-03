@@ -4,10 +4,12 @@ import food2 from '../images/food2.jpg'
 import food3 from '../images/food3.jpg'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import NavLinks from './NavLinks'
 
 export default function Specials() {
   return (
     <main>
+    <NavLinks/>
       <section className='mainHeader'>
         <h3>Specials</h3>
         <button className='headerBtn' id='onlineMenu'>Online menu</button>

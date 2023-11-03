@@ -2,6 +2,7 @@ import React, { useReducer, useState, useEffect } from 'react';
 import BookingForm from './BookingForm';
 import Footer from './Footer';
 import URL from './ApiFile'; // Import the API URL
+import NavLinks from './NavLinks';
 
 export function initializeTimes() {
     return ['00:00', '09:00','17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
@@ -49,6 +50,7 @@ function BookingPage() {
 
   return (
     <div style={{ flex: 1, margin: 'auto' }}>
+    <NavLinks/>
       <BookingForm availableTimes={availableTimes} dispatchTimes={dispatchTimes} />
       <Footer />
     </div>

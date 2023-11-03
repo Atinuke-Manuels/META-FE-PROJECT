@@ -2,10 +2,12 @@ import React from 'react'
 import aboutImage from '../images/aboutImg1.jpg'
 import secondImg from '../images/aboutImg2.jpg'
 import Footer from './Footer'
+import NavLinks from './NavLinks'
 
 function About() {
   return (
     <div id='about' className='about'>
+    <NavLinks/>
     <div className='aboutHeaderDiv' id='home'>
       <div className='headerP'>
       <h2>Little Lemon</h2>
